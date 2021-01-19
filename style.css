@@ -78,11 +78,13 @@ body {
 }
 
 form #search {
+
     margin: 20px;
     border-radius: 50px;
     border-width: thin;
+    border-color: red;
     width: 100%;
-    padding: 1rem;
+    padding: 3rem;
     width: 600px;
 }
 
@@ -93,12 +95,15 @@ form #search {
 
 button {
 
+    
     cursor: pointer;
-    background-color:white;
+    color: white;
+    background-color:rgb(58, 124, 58);
     border: 0;
+    border-radius: 20px;
     outline: none;
-    height: 50px;
-    width: 70px;
+    height: 70px;
+    width: 90px;
 }
 
 button:hover,
