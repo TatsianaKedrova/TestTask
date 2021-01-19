@@ -47,10 +47,13 @@ body {
 }
 
 .googleTitle {
-    margin: auto;
+    
     padding: 10px;
-    font-size: 350%;
+    font-size: 6rem;
     letter-spacing: -5px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    
 }
 
 .offscreen {
@@ -70,10 +73,37 @@ body {
     color: green;
 }
 
+.inputField {
+    display: inline-block;
+}
+
 form #search {
     margin: 20px;
     border-radius: 50px;
+    border-width: thin;
     width: 100%;
     padding: 1rem;
+    width: 600px;
+}
+
+#search:hover,
+#search:focus {
+    box-shadow: 2px 5px 10px #888888;;
+}
+
+button {
+
+    cursor: pointer;
+    background-color:white;
+    border: 0;
+    outline: none;
+    height: 50px;
+    width: 70px;
+}
+
+button:hover,
+button:focus {
+    color: green;
+    background-color:pink;
 }
 
