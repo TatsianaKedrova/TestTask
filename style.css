@@ -103,10 +103,11 @@ input[type="text"] {
 }
 
 #clear {
+    padding: 10px;
     display: none;
     position: absolute;
     margin-top: 50px;
-    margin-left: -80px; */
+    margin-left: -80px;
     cursor:pointer;
     border: none;
     outline: none;
