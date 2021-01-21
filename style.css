@@ -1,25 +1,4 @@
-/** {
-	padding: 0;
-	margin: 0;
-    box-sizing: border-box;
-    
-    html,
-body {
-	background-color: #fff;
-	color: #000;
-	width: 100vw;
-	min-height: 100vh;
-	font-family: "Roboto", Arial, sans-serif;
-    font-size: 22px;
-}
 
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-	min-height: calc(100vh - 60px);
-}
-*/
 * {
     :focus {
         outline: none;
@@ -34,8 +13,7 @@ body {
 
 }
 
-
-.container-fluid {
+.container {
     width: 100%;
     
 }
@@ -99,9 +77,10 @@ form #search {
     box-shadow: 2px 5px 10px #888888;;
 }
 
-button {
-
-    
+form button {
+    margin-left: 50px;
+    margin-top: 30px;
+    position: absolute;
     cursor: pointer;
     color: white;
     background-color:rgb(58, 124, 58);
@@ -124,10 +103,12 @@ input[type="text"] {
 }
 
 #clear {
-    position: relative;
-    
+    display: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -80px; */
+    cursor:pointer;
+    border: none;
+    outline: none;
 }
 
-div .none {
-    display: none;
-}
