@@ -48,8 +48,8 @@ inputField.addEventListener("keypress", (e) => {
 });
 
 //TASK 5 - CREATE ARRAY OF OBJECTS
-//Свойство name первого обьекта будет выводиться в alert()
-//при вводе слова "name" и нажатии на кнопку "Найти"
+//Property "name" of the first item in object will be shown in alert()
+//when we enter the word "name" in the input Field and click "Найти"
 let citizens = [
 	{
 		name: "Sherif",
